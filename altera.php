@@ -14,6 +14,7 @@ if(empty($titulo_livro) || empty($cod_isbn) || empty($autor_livro) || empty($nom
     echo "É preciso preencher todos os campos do formulario.";
     exit;
 }
+#testando 
 
 /**Altera as informações na tabela de livros do banco de dados FirstCrud */
 $PDO = conecta_bd();
@@ -34,4 +35,4 @@ if($stmt->execute()){
 }
 ?>
 
-teste
+
