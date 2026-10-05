@@ -33,3 +33,5 @@ if($stmt->execute()){
     print_r($stmt->errorInfo());
 }
 ?>
+
+teste
